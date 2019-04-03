@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">-->
+    <title>Data Lovers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+  </head>
+  <body>
+    <div>
+      <h1>POKEMON</h1>
+    
+      <div class="Filters">
+          <button id=mostrarPokemones>Mostrar Pokemones</button>
+          <select class="select" id="orden-pokemon">
+              <option>Ordenar</option>
+              <option value="ordenaz" >A - Z</option>
+              <option value="ordenza" >Z - A</option>
+          </select>
+
+          <select class="tiposPokemon" id="tiposPokemon">
+              <option value="">Pokemones por tipo</option>
+              <option value="Grass">Hierba</option>
+              <option value="Poison">Veneno</option>
+              <option value="Fire">Fuego</option>
+              <option value="Ice">Hielo</option>
+              <option value="Flying">Volador</option>
+              <option value="Psychic">Psiquico</option>
+              <option value="Water">Agua</option>
+              <option value="Ground">Suelo</option>
+              <option value="Rock">Roca</option>
+              <option value="Electric">Electrico</option>
+              <option value="Bug">Insecto</option>
+              <option value="Normal">Normal</option>
+              <option value="Fighting">Peleador</option>
+              <option value="Ghost">Fantasma</option>
+              <option value="Dragon">Dragon</option>
+            </select>
+
+            <select class="select" id="Peso">
+              <option>Peso</option>
+              <option value="minimo" >minimo</option>
+              <option value="maximo" >maximo</option>
+            </select>
+      
+    </div> 
+    <div id="contenedor">
+  </div>
+       <script src="./data/pokemon/pokemon.js"></script>
+       <script src="data.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
